@@ -4,10 +4,10 @@ import os
 import albumentations as albu
 
 train_images_og_path="1_task/dataset_football/train/images"
-train_labels_og_path="1_task/dataset_football/train/labelTxt"
+train_labels_og_path="1_task/dataset_football/train/labels"
 
 train_images_augmented_path="1_task/dataset_football/train_augmented/images"
-train_labels_augmented_path="1_task/dataset_football/train_augmented/labelTxt"
+train_labels_augmented_path="1_task/dataset_football/train_augmented/labels"
 
 os.makedirs(train_images_augmented_path,exist_ok=True)
 os.makedirs(train_labels_augmented_path,exist_ok=True)

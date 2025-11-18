@@ -1,8 +1,13 @@
-path: 1_task/dataset_football
-
-train: train/images
-val: valid/images
-test: test/images
+train: ../train_augmented/images
+val: ../valid/images
+test: ../test/images
 
 nc: 3
 names: ['0', '1', '2']
+
+roboflow:
+  workspace: akenbay
+  project: futbol-players-wtxfb
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/akenbay/futbol-players-wtxfb/dataset/2

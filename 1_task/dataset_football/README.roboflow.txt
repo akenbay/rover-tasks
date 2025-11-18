@@ -2,7 +2,7 @@
 futbol players - v2 2025-11-18 9:15pm
 ==============================
 
-This dataset was exported via roboflow.com on November 18, 2025 at 4:17 PM GMT
+This dataset was exported via roboflow.com on November 18, 2025 at 8:25 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -18,7 +18,7 @@ visit https://github.com/roboflow/notebooks
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
 The dataset includes 163 images.
-Players-referee are annotated in YOLOv5 Oriented Object Detection format.
+Players-referee are annotated in YOLO v5 PyTorch format.
 
 The following pre-processing was applied to each image:
 
